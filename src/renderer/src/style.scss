@@ -1,0 +1,37 @@
+@import url(./assets/fonts/fonts.scss);
+@import '@any-design/anyui/styles/index.scss';
+
+body {
+  font-family: 'LxgwWenKai';
+  font-size: medium;
+}
+
+:root {
+  --main-font: 'LxgwWenKai';
+}
+
+.xicon {
+  color: inherit;
+}
+
+::selection {
+  background: var(--secondary-30);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-light);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  display: block;
+  background: var(--bg-light);
+  border-radius: 5px;
+}
